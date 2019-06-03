@@ -16,4 +16,11 @@
 }
 ```
 
-详细介绍：https://kexue.fm/archives/6671
+## 环境
+Python 2.7 + Keras 2.2.4 + Tensorflow 1.8，其中关系最大的应该是Python 2.7了，如果你用Python 3，需要修改几行代码，至于修改哪几行，自己想办法，我不是你的debugger。
+
+欢迎入坑Keras。人生苦短，我用Keras～
+
+## 详细介绍
+https://kexue.fm/archives/6671
+
