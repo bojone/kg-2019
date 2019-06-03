@@ -15,3 +15,5 @@
   howpublished={\url{https://github.com/bojone/kg-2019}},
 }
 ```
+
+详细介绍：https://kexue.fm/archives/6671
