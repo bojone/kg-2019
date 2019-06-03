@@ -7,8 +7,8 @@
 
 ```
 @misc{
-  jianlin2019bdkg,
-  title={Hybrid Structure of Pointer and Tagging for Relation Extraction},
+  jianlin2019bdkgf,
+  title={A Hierachical Relation Extraction Model with Pointer-Tagging Hybrid Structure},
   author={Jianlin Su},
   year={2019},
   publisher={GitHub},
