@@ -1,5 +1,6 @@
 #! -*- coding: utf-8 -*-
 
+from __future__ import print_function
 import json
 import uniout
 import re
@@ -259,4 +260,4 @@ for t in f:
     s = json.dumps(t, ensure_ascii=False)
     F.write(s.encode('utf-8') + '\n')
 
-print n
+print(n)
