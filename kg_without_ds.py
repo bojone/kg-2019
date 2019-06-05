@@ -1,6 +1,7 @@
 #! -*- coding:utf-8 -*-
 
 
+from __future__ import print_function
 import json
 import numpy as np
 from random import choice
@@ -527,7 +528,7 @@ class Evaluate(Callback):
         if f1 > self.best:
             self.best = f1
             train_model.save_weights('best_model.weights')
-        print 'f1: %.4f, precision: %.4f, recall: %.4f, best f1: %.4f\n' % (f1, precision, recall, self.best)
+        print('f1: %.4f, precision: %.4f, recall: %.4f, best f1: %.4f\n' % (f1, precision, recall, self.best))
         EMAer.reset_old_weights()
         if epoch + 1 == 50 or (
             self.stage == 0 and epoch > 10 and
