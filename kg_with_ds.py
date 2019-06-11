@@ -329,6 +329,7 @@ class Attention(Layer):
         self.out_dim = nb_head * size_per_head
         super(Attention, self).__init__(**kwargs)
     def build(self, input_shape):
+        super(Attention, self).build(input_shape)
         q_in_dim = input_shape[0][-1]
         k_in_dim = input_shape[1][-1]
         v_in_dim = input_shape[2][-1]
