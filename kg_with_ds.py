@@ -358,7 +358,7 @@ class Attention(Layer):
             v_mask = inputs[3]
             if len(inputs) > 4:
                 q_mask = inputs[4]
-        # 线性变化
+        # 线性变换
         qw = K.dot(q, self.q_kernel)
         kw = K.dot(k, self.k_kernel)
         vw = K.dot(v, self.v_kernel)
